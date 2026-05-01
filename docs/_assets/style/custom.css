@@ -1,0 +1,28 @@
+:root {
+  --g-color-base-brand: rgb(152 223 37);
+  --g-color-base-brand-hover: rgb(132 203 17);
+  --g-color-text-link: rgb(0 255 170);
+  --g-color-text-link-hover: rgb(0 225 150);
+}
+
+.g-root blockquote {
+  border-inline-start: 4px solid rgb(255 0 255);
+  background: color-mix(in srgb, rgb(255 0 255) 10%, transparent);
+}
+
+.g-root a {
+  color: var(--g-color-text-link);
+}
+
+.g-root a:hover {
+  color: var(--g-color-text-link-hover);
+}
+
+.g-root_theme_dark {
+  --g-color-base-background: hsl(30 46% 41%);
+}
+
+.g-root_theme_dark blockquote {
+  border-inline-start-color: rgba(0, 208, 255, 1);
+  background: color-mix(in srgb, rgba(0, 208, 255, 1) 14%, transparent);
+}

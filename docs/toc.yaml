@@ -1,0 +1,19 @@
+title: Главная
+href: index.yaml
+items: 
+  - name: О проекте
+    href: overview.md
+  
+  - name: Аутентификация
+    href: autentication.md
+  
+  - name: Быстрый старт
+    href: quickstart.md
+
+  - name: Справочник API
+    include:
+      path: openapi
+      includers:
+        - name: openapi
+          input: api_reference.yaml
+      mode: link

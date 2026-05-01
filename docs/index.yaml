@@ -1,0 +1,10 @@
+title: Главная
+links:
+  - title: О проекте
+    href: overview.md
+  - title: Аутентификация
+    href: autentication.md
+  - title: Быстрый старт
+    href: quickstart.md
+  - title: Справочник API
+    href: openapi/

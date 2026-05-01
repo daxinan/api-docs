@@ -1,0 +1,5 @@
+strict: true
+
+resources:
+  style:
+    - _assets/style/custom.css
